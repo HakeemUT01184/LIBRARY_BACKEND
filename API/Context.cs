@@ -27,7 +27,7 @@ namespace API
                 AccountStatus = AccountStatus.ACTIVE,
                 UserType = UserType.ADMIN,
                 Password = "admin1999",
-                CreatedOn = new DateTime(2023, 11, 01, 13, 28, 12)
+                CreatedOn = new DateTime(2024, 11, 30, 13, 28, 12)
             });
 
             modelBuilder.Entity<BookCategory>().HasData(
