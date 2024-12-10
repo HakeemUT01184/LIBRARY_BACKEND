@@ -21,9 +21,12 @@ builder.Services.AddCors(o =>
 {
     o.AddPolicy("myCorsPolicy", policy =>
     {
-        policy.WithOrigins("http://localhost:4200").AllowAnyHeader().AllowAnyMethod();
+        policy.AllowAnyOrigin()  // Allows all origins
+              .AllowAnyHeader()
+              .AllowAnyMethod();
     });
 });
+
 builder.Services.AddScoped<EmailService>();
 builder.Services.AddAuthentication(JwtBearerDefaults.AuthenticationScheme).AddJwtBearer(o =>
 {
