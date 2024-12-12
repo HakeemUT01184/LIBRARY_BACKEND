@@ -386,213 +386,6 @@ namespace API.Migrations
                             Ordered = false,
                             Price = 2400f,
                             Title = "Digital Interface Design and Application"
-                        },
-                        new
-                        {
-                            Id = 38,
-                            Author = "Shigley's Mechanical Engineering Design",
-                            BookCategoryId = 5,
-                            Ordered = false,
-                            Price = 2500f,
-                            Title = "Richard G. Budynas and Keith J. Nisbett"
-                        },
-                        new
-                        {
-                            Id = 39,
-                            Author = "Shigley's Mechanical Engineering Design",
-                            BookCategoryId = 5,
-                            Ordered = false,
-                            Price = 2500f,
-                            Title = "Richard G. Budynas and Keith J. Nisbett"
-                        },
-                        new
-                        {
-                            Id = 40,
-                            Author = "Shigley's Mechanical Engineering Design",
-                            BookCategoryId = 5,
-                            Ordered = false,
-                            Price = 2500f,
-                            Title = "Richard G. Budynas and Keith J. Nisbett"
-                        },
-                        new
-                        {
-                            Id = 41,
-                            Author = "Erik Oberg",
-                            BookCategoryId = 5,
-                            Ordered = false,
-                            Price = 2600f,
-                            Title = "Machinery's Handbook"
-                        },
-                        new
-                        {
-                            Id = 42,
-                            Author = "John J. Craig",
-                            BookCategoryId = 5,
-                            Ordered = false,
-                            Price = 2700f,
-                            Title = "Introduction to Robotics: Mechanics and Control"
-                        },
-                        new
-                        {
-                            Id = 43,
-                            Author = "Robert L. Norton",
-                            BookCategoryId = 5,
-                            Ordered = false,
-                            Price = 2800f,
-                            Title = "Machine Design"
-                        },
-                        new
-                        {
-                            Id = 44,
-                            Author = "Robert L. Norton",
-                            BookCategoryId = 5,
-                            Ordered = false,
-                            Price = 2800f,
-                            Title = "Machine Design"
-                        },
-                        new
-                        {
-                            Id = 45,
-                            Author = "Frank M. White",
-                            BookCategoryId = 6,
-                            Ordered = false,
-                            Price = 3000f,
-                            Title = "Fluid Mechanics"
-                        },
-                        new
-                        {
-                            Id = 46,
-                            Author = "Claus Borgnakke and Richard E. Sonntag",
-                            BookCategoryId = 6,
-                            Ordered = false,
-                            Price = 3100f,
-                            Title = "Fundamentals of Thermodynamics"
-                        },
-                        new
-                        {
-                            Id = 47,
-                            Author = "Claus Borgnakke and Richard E. Sonntag",
-                            BookCategoryId = 6,
-                            Ordered = false,
-                            Price = 3100f,
-                            Title = "Fundamentals of Thermodynamics"
-                        },
-                        new
-                        {
-                            Id = 48,
-                            Author = "James Stewart",
-                            BookCategoryId = 7,
-                            Ordered = false,
-                            Price = 3200f,
-                            Title = "Calculus: Early Transcendentals"
-                        },
-                        new
-                        {
-                            Id = 49,
-                            Author = "Mark Ryan",
-                            BookCategoryId = 7,
-                            Ordered = false,
-                            Price = 3300f,
-                            Title = "Calculus for Dummies"
-                        },
-                        new
-                        {
-                            Id = 50,
-                            Author = "Mark Ryan",
-                            BookCategoryId = 7,
-                            Ordered = false,
-                            Price = 3300f,
-                            Title = "Calculus for Dummies"
-                        },
-                        new
-                        {
-                            Id = 51,
-                            Author = "Louis Leithold",
-                            BookCategoryId = 7,
-                            Ordered = false,
-                            Price = 3400f,
-                            Title = "The Calculus with Analytic Geometry"
-                        },
-                        new
-                        {
-                            Id = 52,
-                            Author = "Euclid",
-                            BookCategoryId = 8,
-                            Ordered = false,
-                            Price = 3500f,
-                            Title = "Euclid's Elements"
-                        },
-                        new
-                        {
-                            Id = 53,
-                            Author = "Robert Kanigel",
-                            BookCategoryId = 8,
-                            Ordered = false,
-                            Price = 3600f,
-                            Title = "The Man Who Knew Infinity: A Life of the Genius Ramanujan"
-                        },
-                        new
-                        {
-                            Id = 54,
-                            Author = "Robert Kanigel",
-                            BookCategoryId = 8,
-                            Ordered = false,
-                            Price = 3600f,
-                            Title = "The Man Who Knew Infinity: A Life of the Genius Ramanujan"
-                        },
-                        new
-                        {
-                            Id = 55,
-                            Author = "Stephen Hawking",
-                            BookCategoryId = 8,
-                            Ordered = false,
-                            Price = 3700f,
-                            Title = "A Brief History of Time"
-                        },
-                        new
-                        {
-                            Id = 56,
-                            Author = "Albert Einstein",
-                            BookCategoryId = 8,
-                            Ordered = false,
-                            Price = 3800f,
-                            Title = "Relativity: The Special and the General Theory"
-                        },
-                        new
-                        {
-                            Id = 57,
-                            Author = "Albert Einstein",
-                            BookCategoryId = 8,
-                            Ordered = false,
-                            Price = 3800f,
-                            Title = "Relativity: The Special and the General Theory"
-                        },
-                        new
-                        {
-                            Id = 58,
-                            Author = "Albert Einstein",
-                            BookCategoryId = 8,
-                            Ordered = false,
-                            Price = 3800f,
-                            Title = "Relativity: The Special and the General Theory"
-                        },
-                        new
-                        {
-                            Id = 59,
-                            Author = "Albert Einstein",
-                            BookCategoryId = 8,
-                            Ordered = false,
-                            Price = 3800f,
-                            Title = "Relativity: The Special and the General Theory"
-                        },
-                        new
-                        {
-                            Id = 60,
-                            Author = "Albert Einstein",
-                            BookCategoryId = 8,
-                            Ordered = false,
-                            Price = 3800f,
-                            Title = "Relativity: The Special and the General Theory"
                         });
                 });
 
@@ -640,30 +433,6 @@ namespace API.Migrations
                             Id = 4,
                             Category = "computer",
                             SubCategory = "hardware"
-                        },
-                        new
-                        {
-                            Id = 5,
-                            Category = "mechanical",
-                            SubCategory = "machine"
-                        },
-                        new
-                        {
-                            Id = 6,
-                            Category = "mechanical",
-                            SubCategory = "transfer of energy"
-                        },
-                        new
-                        {
-                            Id = 7,
-                            Category = "mathematics",
-                            SubCategory = "calculus"
-                        },
-                        new
-                        {
-                            Id = 8,
-                            Category = "mathematics",
-                            SubCategory = "algebra"
                         });
                 });
 
@@ -750,12 +519,12 @@ namespace API.Migrations
                         {
                             Id = 1,
                             AccountStatus = "ACTIVE",
-                            CreatedOn = new DateTime(2023, 11, 1, 13, 28, 12, 0, DateTimeKind.Unspecified),
-                            Email = "admin@gmail.com",
+                            CreatedOn = new DateTime(2024, 12, 12, 14, 6, 46, 677, DateTimeKind.Local).AddTicks(675),
+                            Email = "hakeem@gmail.com",
                             FirstName = "Admin",
                             LastName = "",
-                            MobileNumber = "1234567890",
-                            Password = "admin1999",
+                            MobileNumber = "0756821212",
+                            Password = "hkm1999",
                             UserType = "ADMIN"
                         });
                 });

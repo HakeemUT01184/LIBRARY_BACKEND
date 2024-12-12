@@ -8,7 +8,7 @@ using Microsoft.EntityFrameworkCore.Migrations;
 namespace API.Migrations
 {
     /// <inheritdoc />
-    public partial class initialdb : Migration
+    public partial class sgs : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
@@ -108,17 +108,13 @@ namespace API.Migrations
                     { 1, "computer", "algorithm" },
                     { 2, "computer", "programming languages" },
                     { 3, "computer", "networking" },
-                    { 4, "computer", "hardware" },
-                    { 5, "mechanical", "machine" },
-                    { 6, "mechanical", "transfer of energy" },
-                    { 7, "mathematics", "calculus" },
-                    { 8, "mathematics", "algebra" }
+                    { 4, "computer", "hardware" }
                 });
 
             migrationBuilder.InsertData(
                 table: "Users",
                 columns: new[] { "Id", "AccountStatus", "CreatedOn", "Email", "FirstName", "LastName", "MobileNumber", "Password", "UserType" },
-                values: new object[] { 1, "ACTIVE", new DateTime(2023, 11, 1, 13, 28, 12, 0, DateTimeKind.Unspecified), "admin@gmail.com", "Admin", "", "1234567890", "admin1999", "ADMIN" });
+                values: new object[] { 1, "ACTIVE", new DateTime(2024, 12, 12, 14, 6, 46, 677, DateTimeKind.Local).AddTicks(675), "hakeem@gmail.com", "Admin", "", "0756821212", "hkm1999", "ADMIN" });
 
             migrationBuilder.InsertData(
                 table: "Books",
@@ -161,30 +157,7 @@ namespace API.Migrations
                     { 34, "Kenneth L. Short", 4, false, 2100f, "Embedded Microprocessor Systems Design" },
                     { 35, "Dr. Vibhav Kumar Sachan", 4, false, 2200f, "Digital Electronics & Microprocessor" },
                     { 36, "Xiaocong Fan", 4, false, 2300f, "Real-Time Embedded Systems" },
-                    { 37, "Jonathan A. Dell", 4, false, 2400f, "Digital Interface Design and Application" },
-                    { 38, "Shigley's Mechanical Engineering Design", 5, false, 2500f, "Richard G. Budynas and Keith J. Nisbett" },
-                    { 39, "Shigley's Mechanical Engineering Design", 5, false, 2500f, "Richard G. Budynas and Keith J. Nisbett" },
-                    { 40, "Shigley's Mechanical Engineering Design", 5, false, 2500f, "Richard G. Budynas and Keith J. Nisbett" },
-                    { 41, "Erik Oberg", 5, false, 2600f, "Machinery's Handbook" },
-                    { 42, "John J. Craig", 5, false, 2700f, "Introduction to Robotics: Mechanics and Control" },
-                    { 43, "Robert L. Norton", 5, false, 2800f, "Machine Design" },
-                    { 44, "Robert L. Norton", 5, false, 2800f, "Machine Design" },
-                    { 45, "Frank M. White", 6, false, 3000f, "Fluid Mechanics" },
-                    { 46, "Claus Borgnakke and Richard E. Sonntag", 6, false, 3100f, "Fundamentals of Thermodynamics" },
-                    { 47, "Claus Borgnakke and Richard E. Sonntag", 6, false, 3100f, "Fundamentals of Thermodynamics" },
-                    { 48, "James Stewart", 7, false, 3200f, "Calculus: Early Transcendentals" },
-                    { 49, "Mark Ryan", 7, false, 3300f, "Calculus for Dummies" },
-                    { 50, "Mark Ryan", 7, false, 3300f, "Calculus for Dummies" },
-                    { 51, "Louis Leithold", 7, false, 3400f, "The Calculus with Analytic Geometry" },
-                    { 52, "Euclid", 8, false, 3500f, "Euclid's Elements" },
-                    { 53, "Robert Kanigel", 8, false, 3600f, "The Man Who Knew Infinity: A Life of the Genius Ramanujan" },
-                    { 54, "Robert Kanigel", 8, false, 3600f, "The Man Who Knew Infinity: A Life of the Genius Ramanujan" },
-                    { 55, "Stephen Hawking", 8, false, 3700f, "A Brief History of Time" },
-                    { 56, "Albert Einstein", 8, false, 3800f, "Relativity: The Special and the General Theory" },
-                    { 57, "Albert Einstein", 8, false, 3800f, "Relativity: The Special and the General Theory" },
-                    { 58, "Albert Einstein", 8, false, 3800f, "Relativity: The Special and the General Theory" },
-                    { 59, "Albert Einstein", 8, false, 3800f, "Relativity: The Special and the General Theory" },
-                    { 60, "Albert Einstein", 8, false, 3800f, "Relativity: The Special and the General Theory" }
+                    { 37, "Jonathan A. Dell", 4, false, 2400f, "Digital Interface Design and Application" }
                 });
 
             migrationBuilder.CreateIndex(

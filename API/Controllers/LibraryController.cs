@@ -194,6 +194,76 @@ namespace API.Controllers
             }
             return NotFound();
         }
+        [Authorize]
+        [Route("api/[controller]")]
+        [ApiController]
+        public class BookController : ControllerBase
+        {
+            private readonly Context _context;
+
+            public BookController(Context context)
+            {
+                _context = context;
+            }
+
+            // Get book details by ID
+            [HttpGet("GetBookById")]
+            public ActionResult<Book> GetBookById([FromQuery] int id)
+            {
+                var book = _context.Books
+                    .Where(b => b.Id == id)
+                    .Select(b => new Book
+                    {
+                        Id = b.Id,
+                        Title = b.Title,
+                        Author = b.Author,
+                        Price = b.Price,
+                        BookCategoryId = b.BookCategoryId,
+                        BookCategory = b.BookCategory // Include category details if needed
+                    })
+                    .FirstOrDefault();
+
+                if (book == null)
+                {
+                    return NotFound("Book not found.");
+                }
+
+                return Ok(book);
+            }
+
+            // Update book details
+            [Authorize]
+            [HttpPut("UpdateBook")]
+            public ActionResult UpdateBook([FromBody] Book updatedBook)
+            {
+                if (updatedBook == null)
+                {
+                    return BadRequest("Invalid book data.");
+                }
+
+                var existingBook = _context.Books.Find(updatedBook.Id);
+                if (existingBook == null)
+                {
+                    return NotFound("Book not found.");
+                }
+
+                existingBook.Title = updatedBook.Title;
+                existingBook.Author = updatedBook.Author;
+                existingBook.Price = updatedBook.Price;
+                existingBook.BookCategoryId = updatedBook.BookCategoryId;
+                existingBook.BookCategory = updatedBook.BookCategory; // Update category if needed
+
+                _context.Books.Update(existingBook);
+                _context.SaveChangesAsync();
+                return Ok("updated");
+            }
+
+            // Other methods like AddBook, DeleteBook, etc.
+        }
+
+
+
+
 
         [HttpGet("ReturnBook")]
         public ActionResult ReturnBook(int userId, int bookId, int fine)

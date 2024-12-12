@@ -22,23 +22,21 @@ namespace API
                 Id = 1,
                 FirstName = "Admin",
                 LastName = "",
-                Email = "admin@gmail.com",
-                MobileNumber = "1234567890",
+                Email = "hakeem@gmail.com",  // Changed email to "hakeem@gmail.com"
+                MobileNumber = "0756821212",
                 AccountStatus = AccountStatus.ACTIVE,
                 UserType = UserType.ADMIN,
-                Password = "admin1999",
-                CreatedOn = new DateTime(2024, 11, 30, 13, 28, 12)
+                Password = "hkm1999",
+                CreatedOn = DateTime.Now  // Set to current date and time
             });
+
 
             modelBuilder.Entity<BookCategory>().HasData(
                 new BookCategory { Id = 1, Category = "computer", SubCategory = "algorithm" },
                 new BookCategory { Id = 2, Category = "computer", SubCategory = "programming languages" },
                 new BookCategory { Id = 3, Category = "computer", SubCategory = "networking" },
-                new BookCategory { Id = 4, Category = "computer", SubCategory = "hardware" },
-                new BookCategory { Id = 5, Category = "mechanical", SubCategory = "machine" },
-                new BookCategory { Id = 6, Category = "mechanical", SubCategory = "transfer of energy" },
-                new BookCategory { Id = 7, Category = "mathematics", SubCategory = "calculus" },
-                new BookCategory { Id = 8, Category = "mathematics", SubCategory = "algebra" });
+                new BookCategory { Id = 4, Category = "computer", SubCategory = "hardware" });
+
 
             modelBuilder.Entity<Book>().HasData(
             new Book { Id = 1, BookCategoryId = 1, Ordered = false, Price = 100, Author = "Thomas Corman", Title = "Introduction to Algorithm" },
@@ -80,34 +78,9 @@ namespace API
             new Book { Id = 34, BookCategoryId = 4, Ordered = false, Price = 2100, Author = "Kenneth L. Short", Title = "Embedded Microprocessor Systems Design" },
             new Book { Id = 35, BookCategoryId = 4, Ordered = false, Price = 2200, Author = "Dr. Vibhav Kumar Sachan", Title = "Digital Electronics & Microprocessor" },
             new Book { Id = 36, BookCategoryId = 4, Ordered = false, Price = 2300, Author = "Xiaocong Fan", Title = "Real-Time Embedded Systems" },
-            new Book { Id = 37, BookCategoryId = 4, Ordered = false, Price = 2400, Author = "Jonathan A. Dell", Title = "Digital Interface Design and Application" },
+            new Book { Id = 37, BookCategoryId = 4, Ordered = false, Price = 2400, Author = "Jonathan A. Dell", Title = "Digital Interface Design and Application" });
 
-            new Book { Id = 38, BookCategoryId = 5, Ordered = false, Price = 2500, Author = "Shigley's Mechanical Engineering Design", Title = "Richard G. Budynas and Keith J. Nisbett" },
-            new Book { Id = 39, BookCategoryId = 5, Ordered = false, Price = 2500, Author = "Shigley's Mechanical Engineering Design", Title = "Richard G. Budynas and Keith J. Nisbett" },
-            new Book { Id = 40, BookCategoryId = 5, Ordered = false, Price = 2500, Author = "Shigley's Mechanical Engineering Design", Title = "Richard G. Budynas and Keith J. Nisbett" },
-            new Book { Id = 41, BookCategoryId = 5, Ordered = false, Price = 2600, Author = "Erik Oberg", Title = "Machinery's Handbook" },
-            new Book { Id = 42, BookCategoryId = 5, Ordered = false, Price = 2700, Author = "John J. Craig", Title = "Introduction to Robotics: Mechanics and Control" },
-            new Book { Id = 43, BookCategoryId = 5, Ordered = false, Price = 2800, Author = "Robert L. Norton", Title = "Machine Design" },
-            new Book { Id = 44, BookCategoryId = 5, Ordered = false, Price = 2800, Author = "Robert L. Norton", Title = "Machine Design" },
-
-            new Book { Id = 45, BookCategoryId = 6, Ordered = false, Price = 3000, Author = "Frank M. White", Title = "Fluid Mechanics" },
-            new Book { Id = 46, BookCategoryId = 6, Ordered = false, Price = 3100, Author = "Claus Borgnakke and Richard E. Sonntag", Title = "Fundamentals of Thermodynamics" },
-            new Book { Id = 47, BookCategoryId = 6, Ordered = false, Price = 3100, Author = "Claus Borgnakke and Richard E. Sonntag", Title = "Fundamentals of Thermodynamics" },
-
-            new Book { Id = 48, BookCategoryId = 7, Ordered = false, Price = 3200, Author = "James Stewart", Title = "Calculus: Early Transcendentals" },
-            new Book { Id = 49, BookCategoryId = 7, Ordered = false, Price = 3300, Author = "Mark Ryan", Title = "Calculus for Dummies" },
-            new Book { Id = 50, BookCategoryId = 7, Ordered = false, Price = 3300, Author = "Mark Ryan", Title = "Calculus for Dummies" },
-            new Book { Id = 51, BookCategoryId = 7, Ordered = false, Price = 3400, Author = "Louis Leithold", Title = "The Calculus with Analytic Geometry" },
-
-            new Book { Id = 52, BookCategoryId = 8, Ordered = false, Price = 3500, Author = "Euclid", Title = "Euclid's Elements" },
-            new Book { Id = 53, BookCategoryId = 8, Ordered = false, Price = 3600, Author = "Robert Kanigel", Title = "The Man Who Knew Infinity: A Life of the Genius Ramanujan" },
-            new Book { Id = 54, BookCategoryId = 8, Ordered = false, Price = 3600, Author = "Robert Kanigel", Title = "The Man Who Knew Infinity: A Life of the Genius Ramanujan" },
-            new Book { Id = 55, BookCategoryId = 8, Ordered = false, Price = 3700, Author = "Stephen Hawking", Title = "A Brief History of Time" },
-            new Book { Id = 56, BookCategoryId = 8, Ordered = false, Price = 3800, Author = "Albert Einstein", Title = "Relativity: The Special and the General Theory" },
-            new Book { Id = 57, BookCategoryId = 8, Ordered = false, Price = 3800, Author = "Albert Einstein", Title = "Relativity: The Special and the General Theory" },
-            new Book { Id = 58, BookCategoryId = 8, Ordered = false, Price = 3800, Author = "Albert Einstein", Title = "Relativity: The Special and the General Theory" },
-            new Book { Id = 59, BookCategoryId = 8, Ordered = false, Price = 3800, Author = "Albert Einstein", Title = "Relativity: The Special and the General Theory" },
-            new Book { Id = 60, BookCategoryId = 8, Ordered = false, Price = 3800, Author = "Albert Einstein", Title = "Relativity: The Special and the General Theory" });
+           
         }
 
         protected override void ConfigureConventions(ModelConfigurationBuilder configurationBuilder)
