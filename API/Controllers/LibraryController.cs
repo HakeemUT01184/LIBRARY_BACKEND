@@ -322,7 +322,7 @@ namespace API.Controllers
             return Ok("not approved");
         }
 
-        [Authorize]
+        //[Authorize]
         [HttpGet("GetOrders")]
         public ActionResult GetOrders()
         {

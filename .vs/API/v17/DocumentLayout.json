@@ -1,33 +1,37 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\",
+  "WorkspaceRootPath": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\Migrations\\20241212083646_sgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:API\\Migrations\\20241212083646_sgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|c:\\users\\ut01184\\desktop\\library_backend\\api\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|solutionrelative:api\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|c:\\users\\ut01184\\desktop\\library_backend\\api\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|c:\\users\\ut01184\\desktop\\ghfhsfhdfgujghk,jhlk\\library_backend\\api\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|solutionrelative:api\\controllers\\librarycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|c:\\users\\ut01184\\desktop\\library_backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|c:\\users\\ut01184\\desktop\\ghfhsfhdfgujghk,jhlk\\library_backend\\api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|solutionrelative:api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|c:\\users\\ut01184\\desktop\\ghfhsfhdfgujghk,jhlk\\library_backend\\api\\migrations\\20241212083646_sgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|solutionrelative:api\\migrations\\20241212083646_sgs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|c:\\users\\ut01184\\desktop\\ghfhsfhdfgujghk,jhlk\\library_backend\\api\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|solutionrelative:api\\context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|c:\\users\\ut01184\\desktop\\ghfhsfhdfgujghk,jhlk\\library_backend\\api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|solutionrelative:api\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|c:\\users\\ut01184\\desktop\\library_backend\\api\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|c:\\users\\ut01184\\desktop\\ghfhsfhdfgujghk,jhlk\\library_backend\\api\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|solutionrelative:api\\jwtservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|c:\\users\\ut01184\\desktop\\library_backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|c:\\users\\ut01184\\desktop\\ghfhsfhdfgujghk,jhlk\\library_backend\\api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|solutionrelative:api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|c:\\users\\ut01184\\desktop\\library_backend\\api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|c:\\users\\ut01184\\desktop\\ghfhsfhdfgujghk,jhlk\\library_backend\\api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{F1461D83-0930-42C1-B32C-3056B7F57A0A}|API\\API.csproj|solutionrelative:api\\api.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     }
   ],
@@ -38,15 +42,28 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "API\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\Properties\\launchSettings.json",
+              "RelativeToolTip": "API\\Properties\\launchSettings.json",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAABUAAAAOAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-13T09:28:32.382Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "20241212083646_sgs.cs",
-              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\Migrations\\20241212083646_sgs.cs",
+              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\Migrations\\20241212083646_sgs.cs",
               "RelativeDocumentMoniker": "API\\Migrations\\20241212083646_sgs.cs",
-              "ToolTip": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\Migrations\\20241212083646_sgs.cs",
+              "ToolTip": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\Migrations\\20241212083646_sgs.cs",
               "RelativeToolTip": "API\\Migrations\\20241212083646_sgs.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -55,81 +72,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "Context.cs",
-              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\Context.cs",
+              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\Context.cs",
               "RelativeDocumentMoniker": "API\\Context.cs",
-              "ToolTip": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\Context.cs",
+              "ToolTip": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\Context.cs",
               "RelativeToolTip": "API\\Context.cs",
               "ViewState": "AQIAAAcAAAAAAAAAAAA1wFAAAACmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-12T07:12:07.605Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-12T07:12:07.605Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "LibraryController.cs",
-              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\Controllers\\LibraryController.cs",
+              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\Controllers\\LibraryController.cs",
               "RelativeDocumentMoniker": "API\\Controllers\\LibraryController.cs",
-              "ToolTip": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\Controllers\\LibraryController.cs",
+              "ToolTip": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\Controllers\\LibraryController.cs",
               "RelativeToolTip": "API\\Controllers\\LibraryController.cs",
-              "ViewState": "AQIAAPAAAAAAAAAAAAAmwAkBAAAAAAAA",
+              "ViewState": "AQIAAFEBAAAAAAAAAAAAwFYBAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-12T05:25:25.009Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\appsettings.json",
               "RelativeDocumentMoniker": "API\\appsettings.json",
-              "ToolTip": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\appsettings.json",
+              "ToolTip": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\appsettings.json",
               "RelativeToolTip": "API\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-10T06:43:33.708Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "JwtService.cs",
-              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\JwtService.cs",
-              "RelativeDocumentMoniker": "API\\JwtService.cs",
-              "ToolTip": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\JwtService.cs",
-              "RelativeToolTip": "API\\JwtService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T06:41:15.274Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "API.http",
-              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\API.http",
-              "RelativeDocumentMoniker": "API\\API.http",
-              "ToolTip": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\API.http",
-              "RelativeToolTip": "API\\API.http",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
-              "WhenOpened": "2024-12-10T06:41:06.164Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T06:43:33.708Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "JwtService.cs",
+              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\JwtService.cs",
+              "RelativeDocumentMoniker": "API\\JwtService.cs",
+              "ToolTip": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\JwtService.cs",
+              "RelativeToolTip": "API\\JwtService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-10T06:41:15.274Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "API.http",
+              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\API.http",
+              "RelativeDocumentMoniker": "API\\API.http",
+              "ToolTip": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\API.http",
+              "RelativeToolTip": "API\\API.http",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
+              "WhenOpened": "2024-12-10T06:41:06.164Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\Program.cs",
               "RelativeDocumentMoniker": "API\\Program.cs",
-              "ToolTip": "C:\\Users\\ut01184\\Desktop\\LIBRARY_Backend\\API\\Program.cs",
+              "ToolTip": "C:\\Users\\ut01184\\Desktop\\ghfhsfhdfgujghk,jhlk\\LIBRARY_Backend\\API\\Program.cs",
               "RelativeToolTip": "API\\Program.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAACgAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-10T06:03:00.737Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-10T06:03:00.737Z"
             }
           ]
         }
